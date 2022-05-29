@@ -1,6 +1,6 @@
 const express = require('express');
 const path = require('path');
-
+// quiero sunir algo a GIT
 const app = express();
 
 const publicFolderPath = path.resolve(__dirname, './public');
