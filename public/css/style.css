@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box; /* con esto, el elemento descuenta, por ejemplo, los 5px del border*/
+}
+.contenedor01 {
+    width: 80%;
+    padding: 15px;
+    border: solid 5px;
+    border-color: black;
+    background-color: salmon;
+    margin: auto;
+    
+    
+}
+
+@media (min-width: 570px){
+    body {
+        background-color: greenyellow;
+    }
+    .oculto{
+        display: block;
+    }
+}
+      /* con mobile first se usa el min-width, con mobile last se usa el max-width*/
+
+.oculto{
+    display: none;
+}
+
+/* son los 4 media queri
+576
+768
+992
+1200
+
+*/
